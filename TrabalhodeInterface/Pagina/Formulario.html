@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fan Club | BK'</title>
+    <link rel="StyleSheet" href="../style.css">
+    <link rel="icon" href="../Imagem/Castelo_Ruinas.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Voltar para a Home</a></li>
+                <li><a href="Projeto.html">Ir para os Bastidores</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="text-align: center;">Junte-se ao Movimento</h1>
+        <p style="text-align: center;">Preencha o formulário abaixo para entrar no fã-clube oficial do BK'.</p>
+
+        <form action="#" method="POST">
+            
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+
+                <label for="nome">1. Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">2. E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="nascimento">3. Data de Nascimento:</label><br>
+                <input type="date" id="nascimento" name="nascimento"><br><br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Preferências Musicais</legend>
+
+                <label for="faixa">4. Qual a melhor faixa de Castelos & Ruínas?</label><br>
+                <select id="faixa" name="faixa">
+                    <option value=""></option>
+                    <option value="caminhos">Caminhos</option>
+                    <option value="amanhecer">Sigo na Sombra</option>
+                    <option value="planos">Amores, Vícios e Obsessões</option>
+                    <option value="outra">Outra</option>
+                </select><br><br>
+
+                <p>Qual é o seu álbum favorito do BK?</p>
+
+                <input type="radio" id="castelos" name="album" value="castelos">
+                <label for="castelos">5. Castelos & Ruínas (2016)</label><br>
+                
+                <input type="radio" id="gigantes" name="album" value="gigantes">
+                <label for="gigantes">6. Gigantes (2018)</label><br>
+                
+                <input type="radio" id="lider" name="album" value="lider">
+                <label for="lider">7. O Líder em Movimento (2020)</label><br>
+
+                <input type="radio" id="diamantes" name="album" value="diamentes">
+                <label for="diamantes">8. Diamantes, Lágrimas e Rostos para Esquecer (2025)</label><br><br>
+
+                <p>Quais estilos consomes além do Rap?</p>
+                
+                <input type="checkbox" id="funk" name="estilo" value="funk">
+                <label for="funk">8. Funk</label><br>
+                
+                <input type="checkbox" id="forro" name="estilo" value="forro">
+                <label for="forro">9. Forró</label><br>
+
+                <input type="checkbox" id="rock" name="estilo" value="rock">
+                <label for="rock">10. Rock</label><br><br>
+
+                <label for="mensagem">10. Deixe uma mensagem para o artista:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Escreva aqui sua mensagem..."></textarea><br><br>
+            </fieldset>
+
+            <br>
+
+            <div style="text-align: center;">
+                <button type="reset" style="padding: 10px 20px; margin-right: 10px;">Limpar Formulário</button>
+                <button type="submit" style="padding: 10px 20px; font-weight: bold;">Enviar Inscrição</button>
+            </div>
+
+        </form>
+    </main>
+    <a href="#">Voltar ao Topo</a>
+    <footer>
+        <hr>
+        <p>&copy; 2026 - Kaio Fernando - Projeto 1º Bimestre</p>
+    </footer>
+
+</body>
+</html>
